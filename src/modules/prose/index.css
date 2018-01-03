@@ -45,13 +45,13 @@
   color: var(--Prose-color-text-secondary);
 }
 
-.Prose-blockquote {
+.blockquote {
   @extend .u-border-left-m;
   @extend .u-padding-left-l;
   @extend .u-margin-bottom-xl;
 }
 
-.Prose-blockquote > p {
+.blockquote > p {
   @extend .u-text-r-m;
   @extend .u-textItalic;
   @extend .u-textSecondary;
